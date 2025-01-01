@@ -1,4 +1,4 @@
-# ImageCypher - Cachez et Protégez Vos Secrets avec Chiffrement dans des Images
+# ImageCypher - Hide in Plain Sight
 
 <p>
   <img src="imagecypher.jpg" alt="imagecypher" width="600">
