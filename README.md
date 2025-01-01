@@ -1,10 +1,10 @@
-# ImageCipher
+# ImageCypher - Cachez et Protégez Vos Secrets avec Chiffrement dans des Images
 
 <p>
   <img src="imagecypher.jpg" alt="imagecypher" width="600">
 </p>
 
-ImageCipher est une application de stéganographie sécurisée qui permet de cacher des messages secrets dans des images. L'application combine la technique LSB (Least Significant Bit) avec un chiffrement AES robuste pour garantir la confidentialité des messages.
+ImageCypher est une application de stéganographie sécurisée qui permet de cacher des messages secrets dans des images. L'application combine la technique LSB (Least Significant Bit) avec un chiffrement AES robuste pour garantir la confidentialité des messages.
 
 ## Caractéristiques
 
@@ -25,8 +25,8 @@ ImageCipher est une application de stéganographie sécurisée qui permet de cac
 
 1. Clonez le dépôt :
 ```bash
-git clone https://github.com/votre-username/ImageCipher.git
-cd ImageCipher
+git clone https://github.com/votre-username/ImageCypher.git
+cd ImageCypher
 ```
 
 2. Installez les dépendances :
@@ -39,7 +39,7 @@ pip install -r requirements.txt
 ### Lancer l'application
 
 ```bash
-python imagecipher.py
+python imagecypher.py
 ```
 
 ### Encoder un message
@@ -59,7 +59,7 @@ python imagecipher.py
 
 ## Sécurité
 
-ImageCipher intègre plusieurs couches de sécurité :
+ImageCypher intègre plusieurs couches de sécurité :
 
 - **Chiffrement** : Utilisation du chiffrement AES via Fernet
 - **Clés** : Dérivation sécurisée des clés avec PBKDF2-HMAC-SHA256
@@ -69,13 +69,10 @@ ImageCipher intègre plusieurs couches de sécurité :
 
 ## Structure du projet
 ```
-ImageCipher/
+ImageCypher/
 ├── README.md           # Documentation du projet
 ├── requirements.txt    # Dépendances Python
-├── imagecipher.py     # Code source principal
-├── .gitignore         # Configuration Git
-└── examples/          # Dossier pour les exemples
-```
+├── imagecypher.py     # Code source principal```
 
 ## Dépendances
 

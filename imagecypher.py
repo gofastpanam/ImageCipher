@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-ImageCipher - Application de stéganographie sécurisée pour cacher des messages dans des images.
+ImageCypher - Application de stéganographie sécurisée pour cacher des messages dans des images.
 
 Ce module fournit des fonctions pour encoder et décoder des messages secrets dans des
 images en utilisant la technique LSB (Least Significant Bit) avec chiffrement AES.
@@ -19,7 +19,7 @@ import base64
 # Constantes de sécurité
 MAX_MESSAGE_LENGTH = 1024 * 1024  # 1 MB
 ALLOWED_IMAGE_FORMATS = {'.png', '.jpg', '.jpeg', '.bmp'}
-SALT = b'ImageCipherSalt'  # Dans une vraie application, ce devrait être unique par utilisateur
+SALT = b'ImageCypherSalt'  # Dans une vraie application, ce devrait être unique par utilisateur
 
 def generate_key(password: str) -> bytes:
     """
@@ -179,7 +179,7 @@ def secure_decode_image(image_path: Union[str, Path], password: str) -> str:
 def main():
     """Point d'entrée principal du programme avec interface sécurisée."""
     try:
-        print("=== ImageCipher - Stéganographie Sécurisée ===")
+        print("=== ImageCypher - Stéganographie Sécurisée ===")
         print("1. Encoder un message")
         print("2. Décoder un message")
         
